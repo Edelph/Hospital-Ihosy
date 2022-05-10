@@ -1,0 +1,49 @@
+PERSONNE(
+    #codePersonne#,
+    nom,
+    prenom,
+    age,
+    sex,
+    groupe_sanguin
+)
+DONNEUR(
+    #code_donneur#,
+    profession,
+    contact,
+    CIN,
+    lieu_naissance,
+    date_naissance,
+    adresse,
+)
+BENEFICIAIRE(
+    #code_benneficiaire#,
+)
+BENEFICIAIRE_POCHE_SANG(
+    #code_beneficiaire,
+    #num_poche,
+)
+RESULTAT_SEROLOGIQUE(
+    #code_resultat_serologique#
+    syphilis,
+    HIV,
+    Hbs,
+    HCV,
+    PALU
+)
+POCHE_SANG(
+    #num_poche#,
+    num_ordre,
+    statut_donneur,
+    date_entree,
+    TA_donneur,
+    poid_donneur,
+    date_sortie,
+    cause_sortie,
+    type_PSL,
+    category_poche,
+    phenotypage,
+    service,
+    #code_donneur,
+    #code_beneficiaire,
+    #code_resultat_serologique,
+)
